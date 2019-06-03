@@ -1,0 +1,278 @@
+body{
+  background-image: url("https://media.giphy.com/media/94P1LEMyuVEeA/giphy.gif");
+  margin: 5%;
+  padding: 10px;
+  padding-left: 100px;
+  width: 5%;
+  height: 200px;
+
+}
+
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+
+
+
+#backgroundCanvas{
+  position: fixed;
+  top: 100px;
+  left: 170px;
+  z-index: -2;
+}
+
+
+
+/*background audio */
+.hidden{
+  display: hidden;
+}
+
+/*fade In and Out text */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+/*conversation*/
+.okay{
+  font-size: 3rem;
+  position: absolute;
+  top: 15rem;
+  left: 15%;
+  opacity: 0;
+  color: red;
+  animation-name: fadeInOut  ;
+  animation-delay: 1s;
+  animation-duration: 5s;
+}
+.imfine{
+  font-size: 3rem;
+  position: absolute;
+  top: 20rem;
+  left: 20%;
+  opacity: 0;
+  color: white;
+  animation-name: fadeInOut  ;
+  animation-delay: 8s;
+  animation-duration: 5s;
+}
+
+.shaking{
+  font-size: 3rem;
+  position: absolute;
+  top: 25rem;
+  left: 25%;
+  opacity: 0;
+  color: red;
+  animation-name: fadeInOut  ;
+  animation-delay: 13s;
+  animation-duration: 5s;
+}
+
+.really{
+  font-size: 3rem;
+  position: absolute;
+  top: 30rem;
+  left: 30%;
+  opacity: 0;
+  color: white;
+  animation-name: fadeInOut  ;
+  animation-delay: 18.5s;
+  animation-duration: 5s;
+}
+
+.dontLie{
+  font-size: 3rem;
+  position: absolute;
+  top: 15rem;
+  left: 15%;
+  opacity: 0;
+  color: red;
+  animation-name: fadeInOut  ;
+  animation-delay: 26.2s;
+  animation-duration: 5s;
+}
+
+.letMeOut{
+  font-size: 3rem;
+  position: absolute;
+  top: 20rem;
+  left: 20%;
+  opacity: 0;
+  color: red;
+  animation-name: fadeInOut  ;
+  animation-delay: 37s;
+  animation-duration: 5s;
+}
+
+
+.stuck{
+  font-size: 3rem;
+  position: absolute;
+  top: 25rem;
+  left: 25%;
+  opacity: 0;
+  color: red;
+  animation-name: fadeInOut  ;
+  animation-delay: 42.5s;
+  animation-duration: 5s;
+}
+
+
+
+
+
+/*thoughts*/
+.canSheSee{
+  font-size: 2.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut  ;
+  animation-delay: 14.2s;
+  animation-duration: 5s;
+}
+
+
+.scared {
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut  ;
+  animation-delay: 21.4s;
+  animation-duration: 5s;
+}
+
+.cover{
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 27.4s;
+  animation-duration: 5s;
+}
+
+
+.wontgo{
+  font-size: 3rem;
+  position: absolute;
+  top: 30rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 32s;
+  animation-duration: 5s;
+}
+
+.keepItIn{
+  font-size: 3rem;
+  position: absolute;
+  top: 30rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 38.2s;
+  animation-duration: 5s;
+}
+
+.alwayshere{
+  font-size: 3rem;
+  position: absolute;
+  top: 30rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 47.7s;
+  animation-duration: 5s;
+}
+
+.helpme{
+  font-size: 3rem;
+  position: absolute;
+  top: 30rem;
+  left: 30%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 49s;
+  animation-duration: 5s;
+}
+
+.helpme2{
+  font-size: 3rem;
+  position: absolute;
+  top: 20rem;
+  left: 60%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 50.5s;
+  animation-duration: 3s;
+}
+
+.helpme3{
+  font-size: 3rem;
+  position: absolute;
+  top: 12rem;
+  left: 35%;
+  opacity: 0;
+  color: rgba(168, 146, 150, .9);
+  animation-name: fadeInOut;
+  animation-delay: 51.5s;
+  animation-duration: 3s;
+}
+
+
+#never {
+  opacity: 10;
+  margin-top: 300px;
+  margin-left: 470px;
+  font-size: 21px;
+  text-align: center;
+  animation-name: fadeInOut;
+  animation-delay: 57.7s;
+  animation-duration: 10s;
+}
+
+#never{
+  opacity: 0;
+  font-size: 3rem;
+  position: absolute;
+  color: red;
+}
+
+
+a:hover, a:active{
+  background-color: rgba(201, 0, 76, 0.9);
+}
+a:link, a:visited {
+  background-color: rgba(201, 0, 76, 0.7);
+  color: red;
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+
+}
